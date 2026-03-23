@@ -1,0 +1,18 @@
+# Dependências (Nunca suba essa pasta, ela é pesada demais!)
+node_modules/
+
+# Segurança (Aqui ficam suas senhas do MongoDB e chaves de API)
+.env
+
+# Arquivos de sistema e logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+
+# Pastas de build (Se você usar React no futuro)
+dist/
+build/
+
+# No seu arquivo .env (que o Git vai ignorar)
+MONGO_URI=mongodb+srv://marco:32369592@cluster0.mongodb.net/
